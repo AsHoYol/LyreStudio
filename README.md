@@ -1,6 +1,6 @@
 # 原神弹琴播放器 · Genshin Lyre Studio
 
-一个为原神风物之诗琴（以及晚风圆号等短按乐器）打造的本地弹奏辅助工具。
+一个为原神风物之诗琴打造的本地弹奏辅助工具。
 支持**自动演奏谱子**、**从弹奏视频自动提取乐谱**、**桌面浮窗控制**与**歌词式滚动显示**。
 
 ---
@@ -51,8 +51,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/genshin-lyre-studio.git
-cd genshin-lyre-studio
+git clone https://github.com/AsHoYol/LyreStudio.git
+cd LyreStudio
 
 # 2. 创建虚拟环境（推荐）
 python -m venv .venv
