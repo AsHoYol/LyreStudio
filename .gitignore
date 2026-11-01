@@ -1,0 +1,27 @@
+# Python 环境
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ===== 谱子：默认全部忽略 =====
+scores/*
+scores/**/
+
+# ===== 白名单：只公开这些 =====
+!scores/.gitkeep
+!scores/README.md
+!scores/起风了.txt
+!scores/You.txt
+# （把你愿意公开的文件名逐个加在这里）
+
+# 日志
+*.log
